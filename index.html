@@ -82,6 +82,17 @@
       margin-bottom: 32px;
     }
 
+    /* Invisible links for the bio text */
+    p a {
+      color: inherit;
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+
+    p a:hover {
+      color: var(--text-main);
+    }
+
     .links {
       display: flex;
       gap: 16px;
@@ -116,13 +127,14 @@
     <p>
       Working to democratise spatial data access and promote the uptake of earth observation tools. 
       I specialise in big spatial data, vegetation modelling, and landscape management. Currently serving as 
-      Technical Director at Cibo Labs, CTO at Ozius, and Adjunct Associate Professor at The University of Queensland.
+      Technical Director at <a href="https://www.cibolabs.com.au/" target="_blank" rel="noopener noreferrer">Cibo Labs</a>, CTO at <a href="https://ozius.com.au/" target="_blank" rel="noopener noreferrer">Ozius</a>, and Adjunct Associate Professor at <a href="https://www.uq.edu.au/" target="_blank" rel="noopener noreferrer">The University of Queensland</a>.
     </p>
     <div class="links">
       <a href="https://linkedin.com/in/peter-scarth" target="_blank" rel="noopener noreferrer">LinkedIn</a>
       <a href="https://github.com/petescarth" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://mapstodon.space/@petescarth" target="_blank" rel="noopener noreferrer">Mapstodon</a>
       <a href="https://about.uq.edu.au/experts/9401" target="_blank" rel="noopener noreferrer">UQ Profile</a>
-      <a href="mailto:p.scarth@uq.edu.au">Contact</a>
+      <a href="mailto:peter.scarth@gmail.com">Contact</a>
     </div>
   </div>
 </body>
